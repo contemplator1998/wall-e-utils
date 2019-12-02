@@ -21,6 +21,4 @@ sudo apt-get autoremove
 
 gpg --generate-key  
 
-read gpgid
-
-pass init $gpgid
+echo "Execute command: pass init <gpgid>"
